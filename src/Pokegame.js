@@ -30,7 +30,7 @@ class Pokegame extends Component {
 
     return(
       <div className="Pokegame" >
-        <h1>Pokegame!</h1>
+        <h1 style={{textAlign: 'center', textDecoration: 'underline'}}>POK&Eacute;MON!</h1>
         <Pokedex pokemon={hand1} exp={exp1} isWinner={exp1 > exp2} />
         <Pokedex pokemon={hand2} exp={exp2} isWinner={exp2 > exp1} />
       </div>
