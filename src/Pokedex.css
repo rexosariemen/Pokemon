@@ -1,0 +1,6 @@
+.Pokedex-cards {
+  display: flex;
+  /* flex-wrap: nowrap;  */
+  width: 250px;
+
+}
